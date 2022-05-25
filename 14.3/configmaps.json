@@ -1,0 +1,99 @@
+{
+    "apiVersion": "v1",
+    "items": [
+        {
+            "apiVersion": "v1",
+            "data": {
+                "index.html": "backend prod from params\n"
+            },
+            "kind": "ConfigMap",
+            "metadata": {
+                "annotations": {
+                    "qbec.io/component": "backend",
+                    "qbec.io/last-applied": "H4sIAAAAAAAA/1TOvU7FMAzF8Z2nqM6cW6gQS1ZmViYWN3HBamKHNKqQqr47CoiPO1r+66dzgIo8c93EFB77BIdIjeAPiEb+GN9aTvCYKayscSjV4rBUy0OhSnl7UZwOq2iEx6PpIq9PVOCQudGPRKrWqInp1s/3mcModhssF1PW9ud3LNHM6SqkUpKELwAe0/3l7uHSf3C/Cesu1TR/a31lp5Qy/8fPm08AAAD//wEAAP//q4prhPEAAAA="
+                },
+                "creationTimestamp": "2022-04-23T12:22:16Z",
+                "labels": {
+                    "qbec.io/application": "13-05-qbec",
+                    "qbec.io/environment": "prod"
+                },
+                "name": "backend",
+                "namespace": "prod",
+                "resourceVersion": "3162078",
+                "uid": "45373966-a0e4-43cc-a2dc-a9edaf3de781"
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "data": {
+                "name": "netology.ru"
+            },
+            "kind": "ConfigMap",
+            "metadata": {
+                "creationTimestamp": "2022-05-25T09:07:19Z",
+                "name": "domain",
+                "namespace": "prod",
+                "resourceVersion": "6829305",
+                "uid": "2a2907f3-d91b-44c2-a8b2-94e5d13f5d89"
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "data": {
+                "index.html": "frontend prod from params\n"
+            },
+            "kind": "ConfigMap",
+            "metadata": {
+                "annotations": {
+                    "qbec.io/component": "frontend",
+                    "qbec.io/last-applied": "H4sIAAAAAAAA/1TOsU7EMAzG8Z2nqL45LVSIJSszKxOL27hgkdghjSqkqu+OwulO19HyXz97B2V557KKKTy2EQ6BKsHvEA38O3zVFOGxFNPKGrpcLHRLsdRlKpTWD8Xh8C0a4PFqusjnG2U4JK50pUjVKlUxXdv4M/E8iD3OlrIpa7070LRIE8dTSTlHmf8FeIzP/dNL33Zwt4R1k2KaLlx7s1FKiU/68fAHAAD//wEAAP//7GBB/PQAAAA="
+                },
+                "creationTimestamp": "2022-04-23T12:22:17Z",
+                "labels": {
+                    "qbec.io/application": "13-05-qbec",
+                    "qbec.io/environment": "prod"
+                },
+                "name": "frontend",
+                "namespace": "prod",
+                "resourceVersion": "3162081",
+                "uid": "fea9243f-e4ab-4523-ad46-4b0431234ae8"
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "data": {
+                "ca.crt": "-----BEGIN CERTIFICATE-----\nMIIDBjCCAe6gAwIBAgIBATANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDEwptaW5p\na3ViZUNBMB4XDTIyMDMxNDE3MjE1OVoXDTMyMDMxMjE3MjE1OVowFTETMBEGA1UE\nAxMKbWluaWt1YmVDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALPj\nYNIZPyhtSiC3REV3F3eoFOHiEMw7391zPmPgvwWtDyRY52kNfcNqgFrT2LlZCTs5\nXoZtl614Eo/IXkGD5Xrer3GfgfFwfCiKqzezJ97fxRm74z88OJJXGh4ZOMZ3u/0+\nn4hc+ZaexTFi6L0ba8sNjHrs1hizcRahYWupbDNd2K6hwLzTcZA3v0gCRM67Ee97\n3zkHfcFulugkRyu7p8srzutdea4hnJynnE4GBz48pmYH9JEyYEqDiX7LDz8t7xK6\nIep/lR+1kX67s8FIkC8x8jMpcNkM16tnKdS/vZEcQdQpTIpWuUM43UT4QxezBvk8\nCdDN03AN3VCBRHB4TC8CAwEAAaNhMF8wDgYDVR0PAQH/BAQDAgKkMB0GA1UdJQQW\nMBQGCCsGAQUFBwMCBggrBgEFBQcDATAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQW\nBBS06wl6RB/p9LNVb7owrUzLJcMWMjANBgkqhkiG9w0BAQsFAAOCAQEAWb2BisYw\nisV4k3RID4af/TgD2cPm/us3Z1xm42uAaIYV+8MvSiIjZo8aZnMI7nr5ntzGByQe\nFkvaoxiIfJL9jL59Ju99xjM4SQUZMuDUmDMe2gr13QhBjydGnH9MZIF1egx3+Qn/\nFfdgVSCPL2NlfgXCGvJ5Elx8YcoPW2F8thtR0ifXzR4NHuenOkqoOygvN4fkiuZy\nM67xfm9wdSTIObB+A9h7nYg7K/dg5rfzvJe3IRYOBBI0BpFSIQT/xE+O1sLOOrjU\nS5trHXIHfTzcqAQTqK9QDcDFhGGbkSzs7oWlHMYzPR3AL95itmZLt1t8xN9jMYpN\na9EHEo5kp3RXww==\n-----END CERTIFICATE-----\n"
+            },
+            "kind": "ConfigMap",
+            "metadata": {
+                "annotations": {
+                    "kubernetes.io/description": "Contains a CA bundle that can be used to verify the kube-apiserver when using internal endpoints such as the internal service IP or kubernetes.default.svc. No other usage is guaranteed across distributions of Kubernetes clusters."
+                },
+                "creationTimestamp": "2022-04-23T11:58:41Z",
+                "name": "kube-root-ca.crt",
+                "namespace": "prod",
+                "resourceVersion": "3159739",
+                "uid": "817adcd1-7a5d-42a2-a6b0-2d3289fffc8a"
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "data": {
+                "nginx.conf": "server {\n    listen 80;\n    server_name  netology.ru www.netology.ru;\n    access_log  /var/log/nginx/domains/netology.ru-access.log  main;\n    error_log   /var/log/nginx/domains/netology.ru-error.log info;\n    location / {\n        include proxy_params;\n        proxy_pass http://10.10.10.10:8080/;\n    }\n}\n"
+            },
+            "kind": "ConfigMap",
+            "metadata": {
+                "creationTimestamp": "2022-05-25T09:07:09Z",
+                "name": "nginx-config",
+                "namespace": "prod",
+                "resourceVersion": "6829291",
+                "uid": "2ae72b42-45e7-4947-9b21-d9cdcd54cc24"
+            }
+        }
+    ],
+    "kind": "List",
+    "metadata": {
+        "resourceVersion": "",
+        "selfLink": ""
+    }
+}
